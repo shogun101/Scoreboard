@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="scoreboard">
+                <h3 class="title">HOME</h3>
+            <div class="scorescreen"  id="score-card">
+                <p class="actual-score" id="home-score">00</p>
+                <div id="button-wrap">
+                    <button class="score-button" onclick="homeIncrementOne()" id="incrementOne">+1</button>
+                    <button class="score-button" onclick="homeIncrementTwo()" id="incrementTwo">+2</button>
+                    <button class="score-button" onclick="homeIncrementThree()" id="incrementThree">+3</button>
+                   
+                </div>
+            
+            </div>
+            </div>
+            
+            <div class="scoreboard">
+                <h3 class="title">GUEST</h3>
+                <div class="scorescreen" id="score-card">
+                <p class="actual-score" id="away-score">00</p>
+                <div id="button-wrap">
+                    <button class="score-button" onclick="awayIncrementOne()" id="incrementOne">+1</button>
+                    <button class="score-button" onclick="awayIncrementTwo()" id="incrementTwo">+2</button>
+                    <button class="score-button" onclick="awayIncrementThree()" id="incrementThree">+3</button>
+                    
+                </div>
+            
+            </div>
+            </div>
+        </div>
+        <div class="reset-div" id="reset"> 
+            <button class="reset-button" onclick="resetScores()" id="reset-button"> Reset Scores </button>
+        <script src="index.js"></script>
+    </body>
+</html>
