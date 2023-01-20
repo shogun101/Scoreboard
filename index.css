@@ -1,18 +1,16 @@
 body {
     margin: 24px;
     background-color: #1B244A;
-    font-family: Roboto;
+    margin: 10%;
     color: white;
-    
     
 }
 
 .container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 30%
-    
+    align-self: center;
+ 
 }
 
 .scorescreen {
