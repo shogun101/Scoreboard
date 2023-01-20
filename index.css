@@ -3,7 +3,7 @@ body {
     background-color: #1B244A;
     font-family: Roboto;
     color: white;
-    margin-top: 42%;
+    
     
 }
 
@@ -11,6 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30%
     
 }
 
