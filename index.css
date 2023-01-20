@@ -1,7 +1,7 @@
 body {
     margin: 24px;
     background-color: #1B244A;
-
+    font-family: Roboto;
     color: white;
     
 }
@@ -46,7 +46,7 @@ body {
 .title{
 font-size: 32px;
 text-align: center;
-    font-family: Roboto;
+    
 }
 
 .score-button{
